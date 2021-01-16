@@ -1,8 +1,7 @@
 spring:
   main:
     banner-mode: off
-server:
-  port: 5454
+
   
 eureka:
   client:
