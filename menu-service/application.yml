@@ -1,0 +1,23 @@
+info:
+  build: 
+    artifactId: '@project.artifact@'
+    groupId: '@project.groupId@'
+  java:
+    version: '@java.version@'
+  author:
+    name: srivatsan      
+    
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"  
+  endpoint:
+    health:
+      show-details: always    
+    shutdown:
+      enabled: true  
+      
+      
